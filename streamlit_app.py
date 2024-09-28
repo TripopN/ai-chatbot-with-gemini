@@ -4,6 +4,7 @@ import google.generativeai as genai
 
 st.title("✈️ Your Personal AI Travel Planner")
 st.subheader("Plan your next adventure with AI")
+st.markdown("Made by Mr.Tripop Netpu 6610422011")
 
 # Capture Gemini API Key
 gemini_api_key = st.text_input("Gemini API Key: ", placeholder="Type your API Key here...", type="password")
